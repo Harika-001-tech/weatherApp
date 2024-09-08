@@ -3,6 +3,7 @@ import axios from 'axios';
 import { Link } from 'react-router-dom';
 import { BiSearch,BiCurrentLocation } from "react-icons/bi";
 
+//city table
 const CityTable = () => {
   const [cities, setCities] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
